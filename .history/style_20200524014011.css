@@ -1,0 +1,12 @@
+img {
+    width: auto;
+    height: 600px;
+}
+
+.card-img-overlay {
+    display: none;
+}
+
+.card-img-overlay:hover {
+    display: initial;
+}

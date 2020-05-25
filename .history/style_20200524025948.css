@@ -1,0 +1,37 @@
+body {
+    font-family: 'Bad Script', cursive;
+}
+
+img {
+    width: auto;
+    height: 600px;
+}
+
+.wanted {
+    text-align: center;
+    margin: 50px;
+}
+/* hover for living */
+.living h2 {
+    background-color: lightgray;
+}
+
+.living {
+    opacity: 0;
+}
+
+.living:hover {
+    opacity: 1;
+    text-align: center;
+}
+
+/* hover for dead */
+.dead {
+    opacity: 0;
+}
+
+.dead:hover {
+    opacity: 1;
+    text-align: center;
+    background-color: lightgray;
+}

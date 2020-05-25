@@ -1,0 +1,28 @@
+img {
+    width: auto;
+    height: 600px;
+}
+/* hover for not dead */
+.card-img-overlay h3 {
+    background-color: lightgray;
+}
+
+.card-img-overlay {
+    opacity: 0;
+}
+
+.card-img-overlay:hover {
+    opacity: 1;
+    text-align: center;
+}
+
+/* hover for dead */
+.card-img-dead {
+    opacity: 0;
+}
+
+.card-img-dead:hover {
+    opacity: 1;
+    text-align: center;
+    background-color: lightgray;
+}

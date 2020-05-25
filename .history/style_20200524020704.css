@@ -1,0 +1,14 @@
+img {
+    width: auto;
+    height: 600px;
+}
+
+.card-img-overlay {
+    opacity: 0;
+}
+
+.card-img-overlay:hover {
+    opacity: 1;
+    background-color: lightgray;
+    text-align: center;
+}

@@ -1,0 +1,63 @@
+body {
+    font-family: 'Bad Script', cursive;
+}
+
+#navbarMenu, .titleNav {
+    font-size: 30px;
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 1000;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: lightgray;
+    color: black;
+}
+
+#carouselControls {
+    padding-top: 70px;
+}
+
+p {
+    font-size: 20px;
+}
+
+img {
+    width: auto;
+    height: 600px;
+}
+
+.wanted {
+    text-align: center;
+    margin: 50px;
+}
+/* hover for living */
+.living h2 {
+    background-color: lightgray;
+}
+
+.living {
+    opacity: 0;
+}
+
+.living:hover {
+    opacity: 1;
+    text-align: center;
+}
+
+/* hover for dead */
+.dead {
+    opacity: 0;
+}
+
+.dead:hover {
+    opacity: 1;
+    text-align: center;
+    background-color: lightgray;
+}
